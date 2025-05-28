@@ -1,11 +1,9 @@
-labels: [Profile]
+dlabels: [Profile]
 body:
 - type: dropdown
   attributes:
     label: Select Topic Area
-    description: What would you like to discuss?
-    options:
-      - "Question"
+    description: What would you like to discuss?      - "Question"
       - "Product Feedback"
       - "Bug"
       - "Show & Tell"
@@ -16,5 +14,5 @@ body:
   attributes:
     label: Body
     description: Start your discussion!
-  validations:
+  validations:wou  
     required: true

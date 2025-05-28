@@ -1,14 +1,12 @@
-labels: [Enterprise]
+  labels: [Enterprise]
 body:
 - type: dropdown
   attributes:
-    label: Select Topic Area
-    description: What would you like to discuss?
-    options:
-      - "Question"
+    label: Select Topic being 
+    description: What would you like to discuss?     options: 
+      - "Question
       - "Product Feedback"
-      - "Bug"
-      - "Show & Tell"
+          - "Show & Tell" n be  
       - "General"
   validations:
     required: true
@@ -18,3 +16,4 @@ body:
     description: Start your discussion!
   validations:
     required: true
+   

@@ -1,7 +1,7 @@
 labels: [Pages]
 body:
 - type: dropdown
-  attributes:
+  attributes:  
     label: Select Topic Area
     description: What would you like to discuss?
     options:
